@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Authentication Matters</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: #e6e6e6;
+        }
+
+        /* HERO */
+
+        .hero {
+            height: 60vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url("https://images.unsplash.com/photo-1563986768609-322da13575f3");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 3px solid #ff4d00;
+        }
+
+        .hero h1 {
+            color: #ff4d00;
+            font-size: 48px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* MAIN CONTAINER */
+
+        .container {
+            width: 75%;
+            margin: auto;
+            padding: 40px 0;
+        }
+
+        /* INTRODUCTION */
+
+        .intro {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            background: #181818;
+            padding: 25px;
+            border-left: 5px solid #ff4d00;
+            border-radius: 6px;
+            margin-bottom: 50px;
+        }
+
+        .intro img {
+            width: 45%;
+            border-radius: 6px;
+        }
+
+        .intro-text {
+            width: 55%;
+        }
+
+        .intro h2 {
+            color: #ff6a2b;
+        }
+
+        .intro p {
+            line-height: 1.7;
+        }
+
+        /* REASON BOXES */
+
+        .reason {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            background: #181818;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 35px;
+            transition: 0.3s;
+        }
+
+        .reason:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+        }
+
+        .reason img {
+            width: 300px;
+            border-radius: 6px;
+        }
+
+        .reverse {
+            flex-direction: row-reverse;
+        }
+
+        .reason h3 {
+            color: #ff6a2b;
+        }
+
+        .reason p {
+            line-height: 1.6;
+        }
+
+        /* SUMMARY */
+
+        .summary {
+            background: #181818;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border-top: 4px solid #ff4d00;
+            text-align: center;
+        }
+
+        .summary h2 {
+            color: #ff6a2b;
+            margin-bottom: 15px;
+        }
+
+        .summary p {
+            line-height: 1.7;
+            max-width: 800px;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        .credits {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            border-top: 3px solid #ff4d00;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO -->
+
+    <section class="hero">
+        <div>
+            <h1>Why Authentication Matters</h1>
+            <p>By: Leonardo B. Magdarag Jr.</p>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <!-- INTRODUCTION -->
+
+        <section class="intro">
+
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b">
+
+            <div class="intro-text">
+                <h2>Introduction</h2>
+
+                <p>
+                    In today's digital world, people rely heavily on online systems to store
+                    information, communicate, and perform important activities such as banking
+                    and shopping. Because of this, protecting a person's identity has become a
+                    critical part of cybersecurity.
+                </p>
+
+                <p>
+                    Authentication is the process of verifying that a user is truly who they
+                    claim to be before allowing access to a system or account. Without proper
+                    authentication, sensitive information could easily fall into the wrong
+                    hands. Below are three important reasons why authentication plays a vital
+                    role in protecting digital systems.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- REASON 1 -->
+
+        <section class="reason">
+
+            <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c">
+
+            <div>
+                <h3>1. Protecting Personal Information</h3>
+
+                <p>
+                    Authentication protects sensitive personal information such as emails,
+                    documents, financial data, and private messages. Security systems ensure
+                    that only the rightful owner of an account can access this information.
+                    Methods like passwords, fingerprints, and verification codes help keep
+                    this data safe from unauthorized users.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- REASON 2 -->
+
+        <section class="reason reverse">
+
+            <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7">
+
+            <div>
+                <h3>2. Preventing Unauthorized Access</h3>
+
+                <p>
+                    Hackers and cybercriminals constantly attempt to break into accounts in
+                    order to steal information or misuse systems. Authentication creates a
+                    security barrier that helps prevent these attacks. Techniques such as
+                    two-factor authentication add extra protection and make it much harder
+                    for attackers to gain access.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- REASON 3 -->
+
+        <section class="reason">
+
+            <img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9">
+
+            <div>
+                <h3>3. Building Trust in Digital Platforms</h3>
+
+                <p>
+                    Authentication also helps build trust between users and digital platforms.
+                    When people know their identity is verified and their data is protected,
+                    they feel safer using online services. This is especially important for
+                    banking systems, e-commerce platforms, and social media networks.
+                </p>
+
+            </div>
+
+        </section>
+
+    </div>
+    <!-- SUMMARY -->
+
+    <section class="summary">
+
+        <h2>Summary</h2>
+
+        <p>
+            Authentication plays a critical role in protecting users and digital systems
+            in today’s technology-driven world. By verifying a person’s identity before
+            granting access, authentication helps safeguard personal information,
+            prevents unauthorized access from cybercriminals, and strengthens trust
+            between users and online platforms.
+        </p>
+
+        <p>
+            As more services move online, implementing strong authentication methods
+            such as secure passwords, biometric verification, and multi-factor
+            authentication becomes increasingly important. These measures help ensure
+            that sensitive data remains protected and that digital systems remain
+            reliable and secure for everyone.
+        </p>
+
+    </section>
+
+    <section class="credits">
+        <h3>Image Credits</h3>
+        <p>Images sourced from Unsplash.</p>
+    </section>
+    <footer>
+        <h2 style="color: #ff4d00;">Information Assurance and Security</h2>
+        <p>Blog Activity | Authentication Awareness</p>
+    </footer>
+
+</body>
+
+</html>
